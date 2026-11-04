@@ -1,0 +1,278 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url('../jesus.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial;
+}
+
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 380px;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 100px auto;
+    color: white;
+}
+
+
+h1 {
+    color: gold;
+}
+
+
+h3 {
+    color: white;
+}
+
+
+label {
+    color: greenyellow;
+}
+
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+
+input[type="button"] {
+    cursor: pointer;
+    padding: 8px 20px;
+}
+
+
+
+.reflection-page {
+    margin: 0;
+    background-image: url('../jesus.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial;
+}
+
+
+#menu {
+    display: none;
+}
+
+
+.menu-button {
+    position: fixed;
+    right: 190px;
+    top: 20px;
+    z-index: 10;
+    background-color: black;
+    color: gold;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+#navigation {
+    background-color: black;
+    width: 180px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+#navigation a {
+    display: block;
+    color: white;
+    padding: 20px 5px;
+    text-decoration: none;
+}
+
+
+#navigation .logout {
+    color: red;
+}
+
+
+#navigation .active {
+    color: gold;
+}
+
+
+#menu:checked ~ #navigation {
+    display: none;
+}
+
+
+.reflection-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.reflection-container h1 {
+    color: gold;
+}
+
+
+.reflection-container p {
+    line-height: 1.8;
+}
+
+
+.values-heading {
+    color: gold;
+}
+
+
+
+.advocacy-page {
+    margin: 0;
+    background-image: url('../jesus.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial;
+}
+
+.advocacy-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    width: 70%;
+    margin: 50px 200px 50px 50px;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.advocacy-container h1 {
+    color: gold;
+}
+
+.advocacy-container h2 {
+    color: gold;
+}
+
+.advocacy-container p {
+    line-height: 1.8;
+}
+
+
+.portfolio-page {
+    margin: 0;
+    background-image: url('../jesus.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial;
+}
+
+.portfolio-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    width: 70%;
+    margin: 50px 200px 50px 50px;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.portfolio-container h1 {
+    color: gold;
+}
+
+.portfolio-container h2 {
+    color: gold;
+}
+
+.portfolio-container p {
+    line-height: 1.8;
+}
+
+
+
+.education-page {
+    margin: 0;
+    background-image: url('../jesus.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial;
+}
+
+.education-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    width: 70%;
+    margin: 50px 200px 50px 50px;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.education-container h1 {
+    color: gold;
+}
+
+.education-container h2 {
+    color: gold;
+}
+
+.education-container p {
+    line-height: 1.8;
+}
+
+.education-message {
+    color: gold;
+    font-weight: bold;
+}
+
+
+.technology-page {
+    margin: 0;
+    background-image: url('../jesus.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial;
+}
+
+.technology-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    width: 70%;
+    margin: 50px 200px 50px 50px;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.technology-container h1 {
+    color: gold;
+}
+
+.technology-container h2 {
+    color: gold;
+}
+
+.technology-container p {
+    line-height: 1.8;
+}
+
+.technology-message {
+    color: gold;
+    font-weight: bold;
+    font-size: 20px;
+}
